@@ -4,7 +4,7 @@
 
 From: ```banco.bradesco@atendimento.com.br```
 
-This is not an official Bradesco domain.
+- This is not an official Bradesco domain.
 
 Return Path: ```root@ubuntu-s-1vcpu-1gb-35gb-intel-sfo3-06```
 
