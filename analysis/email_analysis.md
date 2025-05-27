@@ -44,16 +44,13 @@ These indicate the email failed all major authentication checks, suggesting spoo
 
 ## 3. Red Flags in Content
 
-#### Urgent Message:
- The subject urges the user to act quickly, a typical phishing trick.
+#### Urgent Message: The subject urges the user to act quickly, a typical phishing trick.
 
 ```"Seu cartão tem 92.990 pontos LIVELO expirando hoje!" -  Your card has 92,990 LIVELO points expiring today!```
 
-#### Brand Impersonation: 
-Uses Bradesco and Livelo logos and formatting to create false credibility.
+#### Brand Impersonation: Uses Bradesco and Livelo logos and formatting to create false credibility.
 
-#### Malicious Link: 
-The main CTA button redirects to:
+#### Malicious Link: The main CTA button redirects to:
 
 ```https://blog1seguimentmydomaine2bra.me/```
 
@@ -65,14 +62,11 @@ This is a fraudulent, non-Bradesco domain.
 ## 4. Technical Indicators
 
 
-#### Content-Type: 
-HTML with embedded base64 encoded content.
+#### Content-Type: HTML with embedded base64 encoded content.
 
-#### Message-ID: 
-Does not align with Bradesco email infrastructure.
+#### Message-ID: Does not align with Bradesco email infrastructure.
 
-#### Authentication Results: 
-Compromised or unverifiable.
+#### Authentication Results: Compromised or unverifiable.
 
 
 ---
