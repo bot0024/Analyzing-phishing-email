@@ -1,5 +1,7 @@
 # Email-Analysis:
 
+
+
 ## 1. Sender Analysis
 
 #### From:```banco.bradesco@atendimento.com.br```
@@ -17,7 +19,9 @@
 
 - Belongs to DigitalOcean, a cloud provider commonly misused for spam or phishing if not secured.
 
+
 ---
+
 
 ## 2. Authentication Failures
 ```
@@ -30,7 +34,9 @@ DMARC: temperror
 
 These indicate the email failed all major authentication checks, suggesting spoofing or malicious origin.
 
+
 ---
+
 
 ## 3. Red Flags in Content
 
@@ -51,7 +57,9 @@ This is a fraudulent, non-Bradesco domain.
 
 ---
 
+
 ## 4. Technical Indicators
+
 
 #### Content-Type: 
 HTML with embedded base64 encoded content.
@@ -62,7 +70,9 @@ Does not align with Bradesco email infrastructure.
 #### Authentication Results: 
 Compromised or unverifiable.
 
+
 ---
+
 
 ## 📍 Server Details (the attacker’s machine)
 
@@ -78,13 +88,17 @@ Compromised or unverifiable.
 
 This VPS was almost certainly created and configured manually to send spam/phishing emails.
 
+
 ---
+
 
 ## Conclusion:
 
 - This email is a phishing attempt. It leverages urgency, spoofed branding, and fraudulent links to compromise user data.
 
+
 ---
+
 
 ## Recommendations:
 
