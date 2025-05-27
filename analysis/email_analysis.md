@@ -13,11 +13,11 @@
 
 ```root@ubuntu-s-1vcpu-1gb-35gb-intel-sfo3-06```
 
-Shows the email was sent from a Linux VPS on DigitalOcean, not from a legitimate banking server.
+- Shows the email was sent from a Linux VPS on DigitalOcean, not from a legitimate banking server.
 
 Sender IP: ```137.184.34.4```
 
-Belongs to DigitalOcean, a cloud provider commonly misused for spam or phishing if not secured.
+- Belongs to DigitalOcean, a cloud provider commonly misused for spam or phishing if not secured.
 
 ---
 
@@ -75,7 +75,7 @@ This VPS was almost certainly created and configured manually to send spam/phish
 
 ## Conclusion
 
-This email is a phishing attempt. It leverages urgency, spoofed branding, and fraudulent links to compromise user data.
+- This email is a phishing attempt. It leverages urgency, spoofed branding, and fraudulent links to compromise user data.
 
 ---
 
