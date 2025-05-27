@@ -11,7 +11,8 @@
 
 #### Return Path: 
 
-```root@ubuntu-s-1vcpu-1gb-35gb-intel-sfo3-06
+```
+root@ubuntu-s-1vcpu-1gb-35gb-intel-sfo3-06
 ```
 
 - Shows the email was sent from a Linux VPS on DigitalOcean, not from a legitimate banking server.
