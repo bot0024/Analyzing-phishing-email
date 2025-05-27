@@ -2,15 +2,15 @@
 
 ## 1. Sender Analysis
 
-From: ```banco.bradesco@atendimento.com.br```
+- From: ```banco.bradesco@atendimento.com.br```
 
-- This is not an official Bradesco domain.
+This is not an official Bradesco domain.
 
-Return Path: ```root@ubuntu-s-1vcpu-1gb-35gb-intel-sfo3-06```
+- Return Path: ```root@ubuntu-s-1vcpu-1gb-35gb-intel-sfo3-06```
 
 Shows the email was sent from a Linux VPS on DigitalOcean, not from a legitimate banking server.
 
-Sender IP: ```137.184.34.4```
+- Sender IP: ```137.184.34.4```
 
 Belongs to DigitalOcean, a cloud provider commonly misused for spam or phishing if not secured.
 
