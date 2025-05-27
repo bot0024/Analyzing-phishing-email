@@ -7,13 +7,13 @@
 - This is not an official Bradesco domain.
 
 
-### Return Path: 
+#### Return Path: 
 
 ```root@ubuntu-s-1vcpu-1gb-35gb-intel-sfo3-06```
 
 - Shows the email was sent from a Linux VPS on DigitalOcean, not from a legitimate banking server.
 
-### Sender IP: ```137.184.34.4```
+#### Sender IP: ```137.184.34.4```
 
 - Belongs to DigitalOcean, a cloud provider commonly misused for spam or phishing if not secured.
 
@@ -34,15 +34,15 @@ These indicate the email failed all major authentication checks, suggesting spoo
 
 ## 3. Red Flags in Content
 
-### Urgent Message:
+#### Urgent Message:
  The subject urges the user to act quickly, a typical phishing trick.
 
 ```"Seu cartão tem 92.990 pontos LIVELO expirando hoje!" -  Your card has 92,990 LIVELO points expiring today!```
 
-### Brand Impersonation: 
+#### Brand Impersonation: 
 Uses Bradesco and Livelo logos and formatting to create false credibility.
 
-### Malicious Link: 
+#### Malicious Link: 
 The main CTA button redirects to:
 
 ```https://blog1seguimentmydomaine2bra.me/```
@@ -53,27 +53,27 @@ This is a fraudulent, non-Bradesco domain.
 
 ## 4. Technical Indicators
 
-### Content-Type: 
+#### Content-Type: 
 HTML with embedded base64 encoded content.
 
-### Message-ID: 
+#### Message-ID: 
 Does not align with Bradesco email infrastructure.
 
-### Authentication Results: 
+#### Authentication Results: 
 Compromised or unverifiable.
 
 ---
 
 ## 📍 Server Details (the attacker’s machine)
 
-### Hostname: 
+#### Hostname: 
 
 ```ubuntu-s-1vcpu-1gb-35gb-intel-sfo3-06```
 
-### IP Address: 
+#### IP Address: 
 ```137.184.34.4```
 
-### Provider: 
+#### Provider: 
 ```DigitalOcean (San Francisco region)```
 
 This VPS was almost certainly created and configured manually to send spam/phishing emails.
