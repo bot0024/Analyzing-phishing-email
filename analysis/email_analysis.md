@@ -82,13 +82,13 @@ This VPS was almost certainly created and configured manually to send spam/phish
 
 ---
 
-## Conclusion
+## Conclusion:
 
 - This email is a phishing attempt. It leverages urgency, spoofed branding, and fraudulent links to compromise user data.
 
 ---
 
-## Recommendations
+## Recommendations:
 
 - Do NOT click any links.
 
