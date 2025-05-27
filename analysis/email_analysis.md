@@ -27,7 +27,7 @@ SPF: temperror
 
 DKIM: none
 
-DMARC: temperror```
+DMARC: temperror ```
 
 These indicate the email failed all major authentication checks, suggesting spoofing or malicious origin.
 
