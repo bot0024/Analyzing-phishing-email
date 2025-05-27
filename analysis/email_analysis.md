@@ -37,14 +37,14 @@ These indicate the email failed all major authentication checks, suggesting spoo
 
 Urgent Message: The subject urges the user to act quickly, a typical phishing trick.
 
-"Seu cartão tem 92.990 pontos LIVELO expirando hoje!" -  Your card has 92,990 LIVELO points expiring today!```
+```"Seu cartão tem 92.990 pontos LIVELO expirando hoje!" -  Your card has 92,990 LIVELO points expiring today!```
 
 Brand Impersonation: Uses Bradesco and Livelo logos and formatting to create false credibility.
 
 Malicious Link: The main CTA button redirects to:
-```
-https://blog1seguimentmydomaine2bra.me/
-```
+
+```https://blog1seguimentmydomaine2bra.me/```
+
 This is a fraudulent, non-Bradesco domain.
 
 ---
