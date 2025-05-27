@@ -2,9 +2,7 @@
 
 ## 1. Sender Analysis
 
-#### From:
-
-```banco.bradesco@atendimento.com.br```
+#### From:```banco.bradesco@atendimento.com.br```
 
 - This is not an official Bradesco domain.
 
