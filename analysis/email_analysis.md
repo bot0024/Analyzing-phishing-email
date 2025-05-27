@@ -1,12 +1,62 @@
-# Email Analysis
+# 1. Sender Analysis
 
-This is a phishing email spoofing Banco do Bradesco and Livelo.
+From: banco.bradesco@atendimento.com.br
 
-## Key Observations:
-- Urgency: Claims points expire today.
-- Fake sender: banco.bradesco@atendimento.com.br
-- Suspicious IP: 137.184.34.4 (likely attacker-controlled VPS)
-- No SPF/DKIM/DMARC validation
-- HTML layout mimics official Bradesco promotions
+This is not an official Bradesco domain.
 
-The email uses visual tricks and urgency to lure victims into clicking a malicious link.
+Return Path: root@ubuntu-s-1vcpu-1gb-35gb-intel-sfo3-06
+
+Shows the email was sent from a Linux VPS on DigitalOcean, not from a legitimate banking server.
+
+Sending IP: 137.184.34.4
+
+Belongs to DigitalOcean, a cloud provider commonly misused for spam or phishing if not secured.
+
+## 2. Authentication Failures
+
+SPF: temperror
+
+DKIM: none
+
+DMARC: temperror
+
+These indicate the email failed all major authentication checks, suggesting spoofing or malicious origin.
+
+## 3. Red Flags in Content
+
+Urgent Message: The subject urges the user to act quickly, a typical phishing trick.
+
+"Seu cartão tem 92.990 pontos LIVELO expirando hoje!"
+
+Brand Impersonation: Uses Bradesco and Livelo logos and formatting to create false credibility.
+
+Malicious Link: The main CTA button redirects to:
+
+https://blog1seguimentmydomaine2bra.me/
+
+This is a fraudulent, non-Bradesco domain.
+
+## 4. Technical Indicators
+
+Content-Type: HTML with embedded base64 encoded content.
+
+Message-ID: Does not align with Bradesco email infrastructure.
+
+Authentication Results: Compromised or unverifiable.
+
+Conclusion
+
+This email is a phishing attempt. It leverages urgency, spoofed branding, and fraudulent links to compromise user data.
+
+### Recommendations
+
+Do NOT click any links.
+
+Mark the email as phishing/spam.
+
+Report the incident to Bradesco.
+
+Run a malware scan if any interaction occurred.
+
+Reset passwords if suspicious activity is noticed.
+
