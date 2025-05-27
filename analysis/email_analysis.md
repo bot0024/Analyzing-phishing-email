@@ -8,7 +8,6 @@
 
 - This is not an official Bradesco domain.
 
----
 
 ### Return Path: 
 
@@ -20,6 +19,8 @@ Sender IP: ```137.184.34.4```
 
 Belongs to DigitalOcean, a cloud provider commonly misused for spam or phishing if not secured.
 
+---
+
 ## 2. Authentication Failures
 ```
 SPF: temperror
@@ -29,6 +30,8 @@ DKIM: none
 DMARC: temperror```
 
 These indicate the email failed all major authentication checks, suggesting spoofing or malicious origin.
+
+---
 
 ## 3. Red Flags in Content
 
@@ -44,6 +47,8 @@ https://blog1seguimentmydomaine2bra.me/
 ```
 This is a fraudulent, non-Bradesco domain.
 
+---
+
 ## 4. Technical Indicators
 
 Content-Type: HTML with embedded base64 encoded content.
@@ -52,8 +57,12 @@ Message-ID: Does not align with Bradesco email infrastructure.
 
 Authentication Results: Compromised or unverifiable.
 
+---
+
 ## 📍 Server Details (the attacker’s machine)
-Hostname: ```ubuntu-s-1vcpu-1gb-35gb-intel-sfo3-06```
+Hostname: 
+
+```ubuntu-s-1vcpu-1gb-35gb-intel-sfo3-06```
 
 IP Address: ```137.184.34.4```
 
@@ -61,19 +70,23 @@ Provider: ```DigitalOcean (San Francisco region)```
 
 This VPS was almost certainly created and configured manually to send spam/phishing emails.
 
+---
+
 ## Conclusion
 
 This email is a phishing attempt. It leverages urgency, spoofed branding, and fraudulent links to compromise user data.
 
+---
+
 ## Recommendations
 
-Do NOT click any links.
+- Do NOT click any links.
 
-Mark the email as phishing/spam.
+- Mark the email as phishing/spam.
 
-Report the incident to Bradesco.
+- Report the incident to Bradesco.
 
-Run a malware scan if any interaction occurred.
+- Run a malware scan if any interaction occurred.
 
-Reset passwords if suspicious activity is noticed.
+- Reset passwords if suspicious activity is noticed.
 
