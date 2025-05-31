@@ -13,6 +13,9 @@ This repository contains an analysis of a phishing email impersonating Banco do 
 
 - **IP**: ```137.184.34.4```
 
+## 🛠 Tools Required
+- 
+
 ## 📂 Contents
 - Original email: `email/BRADESCO_LIVELO.eml`
 - Screenshot: `screenshots/email_rendered.png`
