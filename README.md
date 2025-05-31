@@ -23,5 +23,7 @@ This repository contains an analysis of a phishing email impersonating Banco do 
 
 ## 📂 Contents
 - Original email: `email/BRADESCO_LIVELO.eml`
+
 - Screenshot: `screenshots/email_rendered.png`
+
 - Analysis: `analysis/email_analysis.md`
