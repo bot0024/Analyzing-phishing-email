@@ -1,29 +1,63 @@
 # Bradesco Livelo Phishing Email Analysis
 
-This repository contains an analysis of a phishing email impersonating Banco do Bradesco and Livelo.
+This repository contains a phishing email sample impersonating Bradesco and Livelo, along with a structured analysis and a small Python utility for extracting email indicators.
 
-## 🔍 Overview
-- **Subject**: CLIENTE PRIME - BRADESCO LIVELO
+## Overview
 
-- **Spoofed Brands**: Bradesco, Livelo
+The sample email uses common phishing tactics:
 
-- **Tactic**: Points expiring today
+- Urgent language claiming reward points are expiring today
+- Brand impersonation of Bradesco and Livelo
+- A suspicious sender address not aligned with official Bradesco infrastructure
+- A malicious or non-official external link
+- Authentication failures suggesting spoofing or invalid origin
 
-- **From**: banco.bradesco@atendimento.com.br
+## Repository Structure
 
-- **IP**: ```137.184.34.4```
+- `email/BRADESCO_LIVELO.eml` — original phishing email sample
+- `analysis/email_analysis.md` — written investigation notes
+- `screenshots/email_rendered.png` — rendered email preview
+- `scripts/eml_inspector.py` — Python script to inspect headers, links, and phishing indicators
 
-## 🛠 Tools Required
+## Quick Start
 
-- **web Virus Total**
+Run the parser against the sample email:
 
-- **web MxToolBox**
+```bash
+python3 scripts/eml_inspector.py email/BRADESCO_LIVELO.eml
+```
 
-- **web email analyzer**
+To output the result as JSON:
 
-## 📂 Contents
-- Original email: `email/BRADESCO_LIVELO.eml`
+```bash
+python3 scripts/eml_inspector.py email/BRADESCO_LIVELO.eml --json
+```
 
-- Screenshot: `screenshots/email_rendered.png`
+## Key Findings
 
-- Analysis: `analysis/email_analysis.md`
+- Subject: `CLIENTE PRIME - BRADESCO LIVELO`
+- Sender: `banco.bradesco@atendimento.com.br`
+- Suspicious return-path / infrastructure indicators
+- Sender IP: `137.184.34.4`
+- SPF/DKIM/DMARC checks are not valid or are inconclusive
+- Malicious URL observed: `https://blog1seguimentmydomaine2bra.me/`
+
+## Why This Repo Matters
+
+This repository is useful for:
+
+- security awareness and phishing education,
+- practical email analysis exercises,
+- testing automated email threat-detection logic,
+- documenting how a fraudulent financial email can be identified.
+
+## Suggested Next Improvements
+
+- Add multiple sample emails to compare phishing patterns
+- Add a CSV/JSON export for extracted indicators
+- Add rule-based checks for suspicious domains, headers, and urgent messaging
+- Add a notebook or dashboard to visualize common phishing patterns
+
+## Contributing
+
+Contributions are welcome. If you improve the analysis or add automation, open a pull request with a clear explanation of the changes.
